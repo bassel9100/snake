@@ -20,13 +20,13 @@
             width: 100vmin; /* to guarantee a square shape at all times */
             height: 100vmin;
             display: grid;
-            grid-template-rows: repeat(21, 1fr);
+            grid-template-rows: repeat(21, 1fr); /* to make sure to always have 21 squares */
             grid-template-columns: repeat(21, 1fr);
         }
 
         .snake {
             background-color: hsl(200, 100%, 50%);
-            border: .25vmin solid black;
+            border: .25vmin solid black; /* size will change according to vmin */
         }
 
         .food {
